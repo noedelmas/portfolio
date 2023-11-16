@@ -3,12 +3,15 @@
 
 Ressources :
 ● HTML/CSS
+
 ● https://getbootstrap.com/docs/4.1/getting-started/introduction/
 ●
 ● UI/webdesign
-● https://blog.institutartline.com/r%C3%A9ussir-son-portfolio-10-conseils-cl%C3
-%A9s
+
+● https://blog.institutartline.com/r%C3%A9ussir-son-portfolio-10-conseils-cl%C3%A9s
+
 ● https://graphiste.com/blog/creer-portfolio/
+
 ● https://dribbble.com/tags/folio
 
 Contexte du projet :
