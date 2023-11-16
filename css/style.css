@@ -9,3 +9,6 @@ header ul{
 header a:hover(){
     color: black;
 }
+.competences ul{
+    list-style: none;
+}
