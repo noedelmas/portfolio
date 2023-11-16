@@ -1,0 +1,11 @@
+header a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+header ul{
+    list-style: none;
+}
+header a:hover(){
+    color: black;
+}
