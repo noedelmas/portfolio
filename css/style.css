@@ -14,7 +14,7 @@ header a:hover(){
 }
 .list li{
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 50px;
 }
 .Home{
     color: orange;
@@ -49,14 +49,25 @@ header a:hover(){
     color: white;
     height: 200px;
     font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 .intro{
     justify-content: center;
     display: flex;
     padding-top: 30px;
+    font-size: large;
 }
 .soustitre{
     justify-content: center;
     display: flex;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.849);
+}
+.Serenseigner{
+    background-color: orange;
     
 }
