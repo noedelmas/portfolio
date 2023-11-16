@@ -12,3 +12,51 @@ header a:hover(){
 .competences ul{
     list-style: none;
 }
+.list li{
+    margin-top: 15px;
+    margin-left: 75px;
+}
+.Home{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Work{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 75px;
+}
+.About{
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Contact{
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.fleche{
+   margin-left: 200px;
+    display: flex;
+    height: 50px;
+    color: orange;
+    margin-top: 15px;
+}
+.test{
+    background-color: #2c2b2b;
+    border-radius: 15px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+}
+.intro{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+.soustitre{
+    justify-content: center;
+    display: flex;
+    
+}
