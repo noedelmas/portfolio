@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" integrity="sha512-oAvZuuYVzkcTc2dH5z1ZJup5OmSQ000qlfRvuoTTiyTBjwX1faoyearj8KdMq0LgsBTHMrRuMek7s+CxF8yE+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list d-flex justify-content-around">
+                        <li><a class="Work" href="index.html">Home.</a></li>
+                        <li><a class="Work" href="work.html">Work.</a></li>
+                        <li><a href="#"><i class="fleche bi bi-arrow-up-circle"></i></a></li>
+                        <li><a class="Work" href="about.html">About.</a></li>
+                        <li><a class="Home" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="test">
+                        <p class="intro">Développeur Web <br>& Web Mobile <br>Junior</p>
+                        <p class="soustitre">Satisfait d’avoir un but à accomplir, d’arriver au fait accompli.</p>
+                        <a class="Serenseigner btn btn-secondary" href="#">En savoir +<i class="fleche2 bi bi-arrow-right-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mainsection .contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 mb-3">
+                                <label for="InputLastName" class="form-label">Last Name</label>
+                                <input type="LastName" class="form-control" id="LastName" placeholder="Last Name">
+                            </div>
+                        <div class="col-sm-12 col-md-6 mb-3">
+                                <label for="InputFirstName" class="form-label">First Name</label>
+                                <input type="FirstName" class="form-control" id="FirstName" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 mb-3">
+                                <label for="InputPoneNumber" class="form-label">Phone Number</label>
+                                <input type="PhoneNumber" class="form-control" id="PhoneNumber" placeholder="Phone Number">
+                            </div>
+                            <div class="col-sm-12 col-md-6 mb-3">
+                                <label for="InputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Ton mail">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleMessage">Message</label>
+                            <textarea class="form-control" aria label="With textarea" placeholder="Please write your message"></textarea>
+                        </div>
+                        <span onclick="SendMessage()" class="btn btn-primary">Send Message</span>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="Contact2">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-12">
+                        <h2>Contact :</h2>
+                        <p>Lieu-Dit Marijoulet<br>48230 Chanac</p>
+                        <p>06/95/84/57/94</p>
+                        <p>delmas575@laposte.net</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <a href="#" class="btn btn-secondary cv">CV</a>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#" class="btn btn-secondary">SendMessage</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
